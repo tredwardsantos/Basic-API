@@ -39,5 +39,10 @@ public listserv listservice;
 	public void updateUser(@RequestBody list topic, @PathVariable String id) {
 		listservice.updateTopic(id, topic);
 	}
+	
+	@RequestMapping(method=RequestMethod.DELETE, value="/list/{id}")
+	public void deleteTopic(@PathVariable String id) {
+		listservice.deleteTopic(id);
+	}
 
 	}

@@ -36,4 +36,8 @@ public class listserv {
 			}
 		}
 	}
+
+	public void deleteTopic(String id) {
+		topics.removeIf(t -> t.getId().equals(id));
+	}
 }
