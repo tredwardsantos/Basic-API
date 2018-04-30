@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 public class listserv {
 
 	private List<list> topics= new ArrayList<>(Arrays.asList(
-			new list("1","aaaa","aaaaaaa"),
-			new list("2","adfda","appppooo"),
-			new list("3","adfda","appppooo")		
+			new list("1","Edward","A","Santos","Angeles City","099999999"),
+			new list("2","Luis","wat","Gutierrez","The Goblet","099999999"),
+			new list("3","Emarina","E","Erwood","Singapore","099999999")		
 			));
 	public List<list> getAllTopics(){
 		return topics;
